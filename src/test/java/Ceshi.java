@@ -47,7 +47,7 @@ public class Ceshi {
 
     static Stream<Arguments> stringIntAndListProvider() {
         return Stream.of(
-                arguments("http://192.168.43.54:5900", "chrome"),
+                arguments("http://192.168.43.54:5902", "chrome"),
                 arguments("http://192.168.43.54:5901", "firefox")
                 //arguments("http://192.168.43.245:5555", "fix")
         );
